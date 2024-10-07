@@ -1,0 +1,48 @@
+/* static/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+h1 {
+    color: #343a40;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-bottom: 15px;
+    color: #007bff;
+    padding:10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    transition: 0.3s;
+    width:fit-content;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #007bff;
+}
+
+nav ul li:hover {
+    background-color: #007bff;
+}
+nav ul li:hover a{
+    color: white;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #6c757d;
+    bottom: 0;
+}
